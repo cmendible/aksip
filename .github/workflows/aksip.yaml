@@ -97,7 +97,7 @@ jobs:
           OWNER_NAME="${GITHUB_REPOSITORY%%/*}"
           REPO_NAME="${GITHUB_REPOSITORY#*/}"
 
-          REL_VERSION="0.1.0"
+          REL_VERSION="0.2.0"
           RELEASE_BODY="This is the release candidate ${REL_VERSION}"
 
           export GITHUB_TOKEN=${{ secrets.AKSIP_BOT_TOKEN }}
